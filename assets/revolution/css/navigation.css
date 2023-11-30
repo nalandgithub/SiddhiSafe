@@ -8,6 +8,79 @@ author:  ThemePunch
 email:      info@themepunch.com
 website:    http://www.themepunch.com
 -----------------------------------------------------------------------------*/
+/* hhfhf */
+/* Decoration Box*/
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 5px;
+  
+}
+
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+/* Style the counter cards */
+/* .card {
+  padding: 16px;
+  text-align: center;
+  color: grey;
+} */
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px; /* Example margin for spacing between cards */
+}
+.fa {font-size:50px;}
+
+
+.big-number {
+  font-size: 36px; /* Adjust the font size as needed */
+  color: orange; /* Set the color to orange or your preferred color */
+  margin-bottom: 5px; /* Adjust spacing if necessary */
+  font-weight: bold;
+}
+
+.item {
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  /* Additional styles for big-number class, title, etc. */
+}
+.item1 {
+  text-align: center;
+  padding: 20px;
+
+}
+
+/* End of Decoration */
+.section-title-area1 {
+  background-color: orange;
+  /* You can adjust other styles here if needed */
+  padding: 20px; /* Adding padding for better visualization */
+}
+
+
+
+
+
+
 .ares.tparrows {
   cursor:pointer;
   background:#fff;
